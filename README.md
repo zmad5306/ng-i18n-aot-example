@@ -10,3 +10,5 @@ $ ng serve --aot \
            --i18n-format=xlf
 
 see start-es npm script in package.json
+
+'ng serve --aot' has issues when only changing template files. if a ts file is changed it will rebuild. if no ts is changed then the rebuild does not compile the templates. 
